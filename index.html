@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>I like buttons</title>
+<style>
+ .button1{ 
+   background-color: #4CAF50; 
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+ }
+  .disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.button2{
+  width: 50%;
+}
+.button3{
+  width: 200%;
+}
+.button4{
+  width: 25%;
+}
+.button5 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button6:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button7 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+}
+
+  
+ 
+</style>
+</head>
+<body>
+
+<h2>Find the button that changes the background</h2>
+
+
+
+<button type="button" onclick="document.body.style.backgroundColor='red';" class="button1">Click!</button>
+
+<br>
+
+<button type="button" onclick="document.body.style.backgroundColor='white';" class="disabled">Click!</button>
+
+<br>
+
+<button type="button" onclick="document.body.style.backgroundColor='green';">Click!</button>
+
+<br>
+
+<button type="button" onclick="document.getElementById('myHiddenButton').style.visibility='hidden';">Click!</button>
+
+<button id="myHiddenButton">Click</button>
+
+<br>
+
+<button type="button" onclick="document.getElementById('myHiddenButton').style.visibility='visible';">Click!</button>
+
+<br> 
+
+<button type="button" onclick="document.getElementById('myHiddenButton').style.visibility='visible';">Click!</button>
+
+<br>
+
+<button onclick="getElementById('demo').innerHTML=Date()">What is the time?</button>
+<p id="demo"></p>
+
+<br>
+
+<button type="button" onclick="document.body.style.backgroundColor='black';" class="button">Click!</button>
+
+<br>
+
+<button type="button" onclick="document.body.style.backgroundColor='orange';" class="button2">Click!</button>
+
+<br>
+
+<button type="button" onclick="document.body.style.backgroundColor='gray';" class="button3">Click!</button>
+
+<br>
+
+<button type="button" onclick="document.body.style.backgroundColor='blue';" class="button4">Click!</button>
+
+<br>
+
+<button type="button" onclick="document.body.style.backgroundColor='Aquamarine ';" class="button5">Click!</button>
+
+<br>
+
+<button type="button" onclick="document.body.style.backgroundColor='yellow';" class="button6">Click!</button>
+
+<br>
+
+<button type="button" onclick="document.body.style.backgroundColor='olive';" class="button7">Click!</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
